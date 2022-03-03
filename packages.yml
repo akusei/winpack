@@ -1,0 +1,56 @@
+---
+packages:
+  # General Software
+  - name: GoogleChrome
+    ignore_checksum: true
+  - name: 7zip.install
+  - name: adobereader
+  - name: bitwarden
+  - name: openvpn-connect
+  - name: gpu-z
+  - name: cpu-z.install
+  - name: hwmonitor
+  - name: discord.install
+  - name: gimp
+  - name: slack
+  - name: notepadplusplus
+  - name: streamlabs-obs
+  - name: sidequest
+  - name: putty
+  - name: signal
+  - name: vlc
+  - name: vnc-viewer
+  - name: zoom
+  - name: evga-precision-x1
+  - name: pia
+  - name: jre8
+
+  # Licensed Software
+  - name: 010editor.install
+    version: "12.0.1"
+
+  # Dev Tools
+  - name: postman
+  - name: atom.install
+  - name: git
+  - name: python
+  - name: pycharm
+  - name: vscode
+
+  # Game Launchers
+  - name: steam
+    arguments: /InstallPath:"c:\Games\Steam"
+
+  # Tools
+  - name: javadecompiler-gui
+  - name: explorersuite
+  - name: wireshark
+  - name: vmwareworkstation
+
+  - name: Microsoft-Windows-Subsystem-Linux
+    source: windowsfeatures
+    reboot: true
+
+  # Things that require user input
+  - name: ubuntu
+  - name: nmap
